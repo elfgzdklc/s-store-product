@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.rs-theme-light,
+:root {
+    --rs-primary-100: #e4eef6 !important;
+    --rs-primary-500: #507eac !important;
+    --rs-primary-600: #2d639d !important;
+    --rs-primary-700: #34649a !important;
+}
